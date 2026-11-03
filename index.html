@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Finder App</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="app-container">
+            <header>
+                <h1>Find Your Perfect Car</h1>
+                <p>Select your criteria below to filter available vehicles.</p>
+            </header>
+
+            <section class="filter-section">
+                <div class="filter-group">
+                    <label for="year-select">Year:</label>
+                    <select id="year-select">
+                        <option value="">-- All Years --</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="make-select">Make:</label>
+                    <select id="make-select" disabled>
+                        <option value="">-- Select Year First --</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="model-select">Model:</label>
+                    <select id="model-select" disabled>
+                        <option value="">-- Select Make First --</option>
+                    </select>
+                </div>
+                
+                <button id="reset-btn">Reset Filters</button>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
